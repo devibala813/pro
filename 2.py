@@ -6,8 +6,8 @@ while i<len(d1)-1 and d2:
       d2=-1
       d1=d1[:i]+d1[i+1:]
       if(i!=0):
-         j=-1
+         i=-1
    else:
-       j+=1
+       i+=1
 d=d1[:len(d1)-d2]
 print(d)
